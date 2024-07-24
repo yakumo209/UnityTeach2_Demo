@@ -19,6 +19,7 @@ public class BeginPanel : BasePanel<BeginPanel>
         btnRank.onClick.Add(new EventDelegate(() =>
         {
             //显示排行榜
+            RankPanel.Instance.ShowMe();
         }));
         btnSetting.onClick.Add(new EventDelegate(() =>
         {
