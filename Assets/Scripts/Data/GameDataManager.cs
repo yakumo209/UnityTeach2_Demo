@@ -21,7 +21,7 @@ public class GameDataManager
     public void SetMusicIsOpen(bool isOpen)
     {
         musicData.musicIsOpen = isOpen;
-        
+        BkMusic.Instance.SetBkMusicIsOpen(isOpen);
     }
     public void SetSoundIsOpen(bool isOpen)
     {
@@ -32,7 +32,7 @@ public class GameDataManager
     public void SetMusicValue(float value)
     {
         musicData.musicValue = value;
-        
+        BkMusic.Instance.SetBkMusicValue(value);
     }
     public void SetSoundValue(float value)
     {
